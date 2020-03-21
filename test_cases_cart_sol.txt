@@ -1,0 +1,36 @@
+Input: aaabbcdd
+
+Output:
+Item A | Quantity 3
+Item B | Quantity 2
+Item C | Quantity 1
+Item D | Quantity 2
+Total Price:  225
+
+
+Input: bbbddcccaa
+
+Output:
+Item B | Quantity 3
+Item D | Quantity 2
+Item C | Quantity 3
+Item A | Quantity 2
+Total Price:  265
+
+
+Input: aaaa
+
+Output:
+Item A | Quantity 4
+Total Price:  180
+
+Input: aAAbcBDdk
+
+Output:
+Item A | Quantity 3
+Item B | Quantity 2
+Item C | Quantity 1
+Item D | Quantity 2
+Product K is not available
+Item K | Quantity 1
+Total Price:  225
