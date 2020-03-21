@@ -56,11 +56,12 @@ for k,v in cart.items():
         else:
             up = prod[k]
             ti = cart[k]
-            price = ti*up    
+            price = ti*up
+        total_price+=price
            
     else:
         print("Product {} is not available".format(k))
-    total_price+=price
+    
     print("Item {} | Quantity {}".format(k,v))
     
 print("Total Price: ", total_price)
